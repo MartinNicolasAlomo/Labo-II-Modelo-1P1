@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Logica/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Logica.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Logica/1.0.0": {
+      "type": "project",
+      "path": "../Logica/Logica.csproj",
+      "msbuildProject": "../Logica/Logica.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Logica >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\alomo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\alomo\\EjercitacionClase2D-Alomo-Martin-Nicolas\\Modelo 1er Parcial - El Dispositivo\\Vista\\Vista.csproj",
+      "projectName": "Vista",
+      "projectPath": "C:\\Users\\alomo\\EjercitacionClase2D-Alomo-Martin-Nicolas\\Modelo 1er Parcial - El Dispositivo\\Vista\\Vista.csproj",
+      "packagesPath": "C:\\Users\\alomo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alomo\\EjercitacionClase2D-Alomo-Martin-Nicolas\\Modelo 1er Parcial - El Dispositivo\\Vista\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\alomo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\alomo\\EjercitacionClase2D-Alomo-Martin-Nicolas\\Modelo 1er Parcial - El Dispositivo\\Logica\\Logica.csproj": {
+              "projectPath": "C:\\Users\\alomo\\EjercitacionClase2D-Alomo-Martin-Nicolas\\Modelo 1er Parcial - El Dispositivo\\Logica\\Logica.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
